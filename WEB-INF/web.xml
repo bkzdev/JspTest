@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
+	 http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+	 version="2.4">
+
+<!-- Sample1 -->
+	<servlet>
+		<servlet-name>Sample1</servlet-name>
+		<servlet-class>sample.Sample1</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Sample1</servlet-name>
+		<url-pattern>/Sample1</url-pattern>
+	</servlet-mapping>
+
+<!-- Sample2 -->
+	<servlet>
+		<servlet-name>Sample2</servlet-name>
+		<servlet-class>sample.Sample2</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Sample2</servlet-name>
+		<url-pattern>/Sample2</url-pattern>
+	</servlet-mapping>
+
+<!-- Sample3 -->
+	<servlet>
+		<servlet-name>Sample3</servlet-name>
+		<servlet-class>sample.Sample3</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Sample3</servlet-name>
+		<url-pattern>/Sample3</url-pattern>
+	</servlet-mapping>
+
+<!-- Sample4 -->
+	<servlet>
+		<servlet-name>Sample4</servlet-name>
+		<servlet-class>sample.Sample4</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Sample4</servlet-name>
+		<url-pattern>/Sample4</url-pattern>
+	</servlet-mapping>
+
+<!-- Sample5 -->
+	<servlet>
+		<servlet-name>Sample5</servlet-name>
+		<servlet-class>sample.Sample5</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Sample5</servlet-name>
+		<url-pattern>/Sample5</url-pattern>
+	</servlet-mapping>
+
+<!-- Sample6 -->
+	<servlet>
+		<servlet-name>Sample6</servlet-name>
+		<servlet-class>sample.Sample6</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Sample6</servlet-name>
+		<url-pattern>/Sample6</url-pattern>
+	</servlet-mapping>
+
+<!-- Request1 -->
+	<servlet>
+		<servlet-name>Request1</servlet-name>
+		<servlet-class>requestSample.Request1</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Request1</servlet-name>
+		<url-pattern>/Request1</url-pattern>
+	</servlet-mapping>
+
+<!-- Request2 -->
+	<servlet>
+		<servlet-name>Request2</servlet-name>
+		<servlet-class>requestSample.Request2</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Request2</servlet-name>
+		<url-pattern>/Request2</url-pattern>
+	</servlet-mapping>
+
+</web-app>
