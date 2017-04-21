@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * https://www.javadrive.jp/servlet/request/index4.html
+ * https://www.javadrive.jp/servlet/request/index5.html
  */
 public class Request2 extends HttpServlet {
 

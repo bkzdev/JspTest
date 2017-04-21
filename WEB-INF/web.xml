@@ -94,4 +94,15 @@
 		<url-pattern>/Request2</url-pattern>
 	</servlet-mapping>
 
+<!-- Request3 -->
+	<servlet>
+		<servlet-name>Request3</servlet-name>
+		<servlet-class>requestSample.Request3</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Request3</servlet-name>
+		<url-pattern>/Request3</url-pattern>
+	</servlet-mapping>
+
 </web-app>
