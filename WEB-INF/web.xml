@@ -105,4 +105,26 @@
 		<url-pattern>/Request3</url-pattern>
 	</servlet-mapping>
 
+<!-- Request4 -->
+	<servlet>
+		<servlet-name>Request4</servlet-name>
+		<servlet-class>requestSample.Request4</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Request4</servlet-name>
+		<url-pattern>/Request4</url-pattern>
+	</servlet-mapping>
+
+<!-- Request5 -->
+	<servlet>
+		<servlet-name>Request5</servlet-name>
+		<servlet-class>requestSample.Request5</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Request5</servlet-name>
+		<url-pattern>/Request5</url-pattern>
+	</servlet-mapping>
+
 </web-app>
