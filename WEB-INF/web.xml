@@ -216,4 +216,15 @@
 		<url-pattern>/webxml5</url-pattern>
 	</servlet-mapping>
 
+<!-- postgre1 -->
+	<servlet>
+		<servlet-name>postgre1</servlet-name>
+		<servlet-class>postgreSample.Postgre1</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>postgre1</servlet-name>
+		<url-pattern>/postgre1</url-pattern>
+	</servlet-mapping>
+
 </web-app>
