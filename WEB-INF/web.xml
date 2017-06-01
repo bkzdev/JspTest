@@ -127,4 +127,93 @@
 		<url-pattern>/Request5</url-pattern>
 	</servlet-mapping>
 
+<!-- webxml1 -->
+	<servlet>
+		<servlet-name>webxml1_1</servlet-name>
+		<servlet-class>webxmlSample.Webxml1_1</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>webxml1_2</servlet-name>
+		<servlet-class>webxmlSample.Webxml1_2</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>webxml1_1</servlet-name>
+		<url-pattern>/webxml1_helloworld</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>webxml1_2</servlet-name>
+		<url-pattern>/webxml1.html</url-pattern>
+	</servlet-mapping>
+
+<!-- webxml2 -->
+	<servlet>
+		<servlet-name>webxml2_1</servlet-name>
+		<servlet-class>webxmlSample.Webxml2_1</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>webxml2_2</servlet-name>
+		<servlet-class>webxmlSample.Webxml2_2</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>webxml2_1</servlet-name>
+		<url-pattern>/webxml2_1/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>webxml2_2</servlet-name>
+		<url-pattern>/webxml2_2/*</url-pattern>
+	</servlet-mapping>
+
+<!-- webxml3 -->
+	<servlet>
+		<servlet-name>webxml3_1</servlet-name>
+		<servlet-class>webxmlSample.Webxml3_1</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>webxml3_2</servlet-name>
+		<servlet-class>webxmlSample.Webxml3_2</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>webxml3_1</servlet-name>
+		<url-pattern>*.gif</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>webxml3_2</servlet-name>
+		<url-pattern>*.jpg</url-pattern>
+	</servlet-mapping>
+
+<!-- webxml4 -->
+<!-- <servlet>
+		<servlet-name>webxml4</servlet-name>
+		<servlet-class>webxmlSample.Webxml4</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>webxml4</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>-->
+
+<!-- webxml5 -->
+	<servlet>
+		<servlet-name>webxml5</servlet-name>
+		<servlet-class>webxmlSample.Webxml5</servlet-class>
+		<init-param>
+			<param-name>zeiritsu</param-name>
+			<param-value>5</param-value>
+		</init-param>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>webxml5</servlet-name>
+		<url-pattern>/webxml5</url-pattern>
+	</servlet-mapping>
+
 </web-app>
