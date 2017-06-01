@@ -227,4 +227,70 @@
 		<url-pattern>/postgre1</url-pattern>
 	</servlet-mapping>
 
+<!-- postgre2 -->
+	<servlet>
+		<servlet-name>postgre2</servlet-name>
+		<servlet-class>postgreSample.Postgre2</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>postgre2</servlet-name>
+		<url-pattern>/postgre2</url-pattern>
+	</servlet-mapping>
+
+<!-- postgre3 -->
+	<servlet>
+		<servlet-name>postgre3</servlet-name>
+		<servlet-class>postgreSample.Postgre3</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>postgre3</servlet-name>
+		<url-pattern>/postgre3</url-pattern>
+	</servlet-mapping>
+
+<!-- postgre4 -->
+	<servlet>
+		<servlet-name>postgre4</servlet-name>
+		<servlet-class>postgreSample.Postgre4</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>postgre4</servlet-name>
+		<url-pattern>/postgre4</url-pattern>
+	</servlet-mapping>
+
+<!-- postgre5 -->
+	<servlet>
+		<servlet-name>postgre5</servlet-name>
+		<servlet-class>postgreSample.Postgre5</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>postgre5</servlet-name>
+		<url-pattern>/postgre5</url-pattern>
+	</servlet-mapping>
+
+<!-- postgre6 -->
+	<servlet>
+		<servlet-name>postgre6</servlet-name>
+		<servlet-class>postgreSample.Postgre6</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>postgre6</servlet-name>
+		<url-pattern>/postgre6</url-pattern>
+	</servlet-mapping>
+
+<!-- postgre7 -->
+	<servlet>
+		<servlet-name>postgre7</servlet-name>
+		<servlet-class>postgreSample.Postgre7</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>postgre7</servlet-name>
+		<url-pattern>/postgre7</url-pattern>
+	</servlet-mapping>
+
 </web-app>

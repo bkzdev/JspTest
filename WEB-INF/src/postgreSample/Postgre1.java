@@ -8,6 +8,11 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+/**
+ * https://www.javadrive.jp/servlet/database/index1.html
+ * https://www.javadrive.jp/servlet/database/index2.html
+ * JDBCドライバはTomcatのlibに入れる
+ */
 public class Postgre1 extends HttpServlet {
 
 	@Override
