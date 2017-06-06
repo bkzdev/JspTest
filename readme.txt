@@ -1,4 +1,4 @@
-ビルドパスの構成→ライブラリ→変数でTOMCAT_HOME定数を追加する(C:\pleiades\tomcat5.5とか)
+ビルドパスの構成→ライブラリ→変数でTOMCAT_HOME定数を追加する(C:\pleiades\tomcat\8とか)
 JDBCドライバなどのライブラリはtomcatのcommon\libに入れる
 
 PSQL操作めも(https://www.javadrive.jp/servlet/database/index4.html)
